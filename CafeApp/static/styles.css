@@ -1,0 +1,152 @@
+
+body {
+   margin: 0;
+   font-family: 'Montserrat', sans-serif;
+   background: 
+      radial-gradient(farthest-side at -33.33% 50%,#0000 52%,#e9eaff 54% 57%,#0000 59%) 0 calc(212px/2),
+      radial-gradient(farthest-side at 50% 133.33%,#0000 52%,#e9eaff 54% 57%,#0000 59%) calc(212px/2) 0,
+      radial-gradient(farthest-side at 133.33% 50%,#0000 52%,#e9eaff 54% 57%,#0000 59%),
+      radial-gradient(farthest-side at 50% -33.33%,#0000 52%,#e9eaff 54% 57%,#0000 59%),
+      #ffffff;
+   background-size: calc(212px/4.667) 212px,212px calc(212px/4.667);
+   background-attachment: fixed;
+}
+
+.nav {
+   z-index: 2;
+   border: solid 1px rgb(202, 202, 202);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 40px;
+   position: fixed;
+   top: 0;
+   height: 60px;
+   background: rgba(255, 255, 255, 0.5);
+   backdrop-filter: blur(5px);
+   -webkit-backdrop-filter: blur(5px);
+   padding: 15px 30px;
+   width: calc(100% - 60px);
+
+}
+
+.nav-link {
+   font-weight: bold;
+   background-color: gray;
+   font-size: x-large;
+   width: 150px;
+   padding: 20px;
+   border-radius: 30px;
+   color: #ffffff;
+   line-height: 1;
+   text-decoration: none;
+   text-align: center;
+   border-left: solid 0px;
+   border-right: solid 0px;
+   -webkit-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+   width: 170px;
+}
+
+.menu {
+   gap: 30px;
+   margin-top: 85px;
+   display: flex;
+   padding: 30px;
+   flex-wrap: wrap;
+}
+
+.dish-card {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 20px;
+   width: 270px;
+   border-radius: 30px;
+   border: solid 1px rgb(202, 202, 202);
+   background: rgba(255, 255, 255, 0.5);
+   backdrop-filter: blur(5px);
+   -webkit-backdrop-filter: blur(5px);
+}
+
+.admin-link {
+   background-image: url('../../media/admin.png');
+   height: 60px;
+   width: 60px;
+   background-size: contain;
+   -webkit-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+}
+
+.admin-link:hover {
+   background-image: url('../../media/admin-hover.png');
+}
+
+.cart-link {
+   background-image: url('../../media/bill.png');
+   height: 60px;
+   width: 60px;
+   background-size: contain;
+   -webkit-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+}
+
+.cart-link:hover {
+   background-image: url('../../media/bill-hover.png');
+}
+
+.add-button {
+   background-color: #8ac926;
+   height: 40px;
+   width: 40px;
+   border: none;
+   border-radius: 20px;
+   color: #ffffff;
+   font-size: xx-large;
+   line-height: 40px;
+   -webkit-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+}
+
+.add-button:hover {
+   background-color: #436d00;
+}
+
+.search-bar{
+   height: 58px;
+   width: 200px;
+   font-size: x-large;
+   border-radius: 30px;
+   border: solid 1px rgb(202, 202, 202);
+   padding: 0 20px;
+}
+
+.search-button {
+   height: 60px;
+   width: 60px;
+   border: none;
+   border-radius: 30px;
+   -webkit-transition: all 0.3s ease;
+   -moz-transition: all 0.3s ease;
+   -o-transition: all 0.3s ease;
+   transition: all 0.3s ease;
+   color: #ffffff;
+   font-size: xx-large;
+   padding-bottom: 5px;
+   background-color: rgb(202, 202, 202)
+}
+
+.search-button:hover {
+   background-color: rgb(153, 153, 153);
+}

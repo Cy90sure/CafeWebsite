@@ -1,0 +1,68 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>CafeApp</title>
+   <link rel="icon" type="image/x-icon" href="/media/icon.png">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+
+<body>
+   <div>
+      <div class="nav">
+         <div style="display: flex;
+               align-items: center;
+               gap: 10px;">
+               <img style="height: 60px;" src="/media/icon.png">
+            <form id="search-form" method="GET" action="{% url 'search_results' %}">
+               <input class="search-bar" type="text" name="query">
+               <input class="search-button" type="submit" value="⌕">
+           </form>
+         </div>
+         <div style="display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;">
+            <a style="background-color: #3D348B;" class="nav-link" href="{% url 'index' %}">ОСНОВНЕ</a>
+            <a style="background-color: #F7B801;" class="nav-link" href="{% url 'desserts' %}">ДЕСЕРТИ</a>
+            <a style="background-color: #F35B04;" class="nav-link" href="{% url 'cocktails' %}">КОКТЕЙЛІ</a>
+         </div>
+ 
+         <div style="display: flex;
+            align-items: center;
+            gap: 10px;">
+            <a class="cart-link" href="/order/"></a>
+            <a class="admin-link" href="/admin/login/"></a>
+         </div>
+      </div>
+   </div>
+
+   <div class="menu">
+      <h1 style="width: 100%; padding-left: 20px; margin: 0;">{{ category }}</h1>
+      {% if Dish_list %}
+      {% for dish in Dish_list %}
+      <div class="dish-card">
+        <div>
+         <img style="height: 190px; width: 270px;" src="{{ dish.image.url }}" alt="Dish Image" onload="console.log('{{ dish.image.url }}')">
+         <h2>{{ dish.name }}</h2>
+         <p>{{ dish.description }}</p>
+         <p><b>Price: ₴{{ dish.price }}</b></p>
+        </div>
+        <button class="add-button">+</button>
+      </div>
+      {% endfor %}
+      {% else %}
+      <h1>Меню наразі пусте</h1>
+      {% endif %}
+   </div>
+</body>
+
+</html>
