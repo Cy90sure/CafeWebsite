@@ -8,7 +8,8 @@
    <link rel="icon" type="image/x-icon" href="/media/icon.png">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet">
    <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,11 +22,11 @@
          <div style="display: flex;
                align-items: center;
                gap: 10px;">
-               <a href="{% url 'info' %}"><img style="height: 60px;" src="/media/icon.png"></a>
+            <a href="{% url 'info' %}"><img style="height: 60px;" src="/media/icon.png"></a>
             <form id="search-form" method="GET" action="{% url 'search_results' %}">
                <input class="search-bar" type="text" name="query">
                <input class="search-button" type="submit" value="⌕">
-           </form>
+            </form>
          </div>
          <div style="display: flex;
             justify-content: center;
@@ -36,27 +37,27 @@
             <a style="background-color: #a7c957;" class="nav-link" href="{% url 'drinks' %}">НАПОЇ</a>
             <a style="background-color: #F35B04;" class="nav-link" href="{% url 'cocktails' %}">КОКТЕЙЛІ</a>
          </div>
- 
-         
+
+
       </div>
    </div>
 
-   <div class="menu">
-      <h1 style="width: 100%; padding-left: 20px; margin: 0;">{{ category }}</h1>
-      {% if Dish_list %}
-      {% for dish in Dish_list %}
-      <div class="dish-card">
-        <div>
-         <img style="height: 190px; width: 270px;" src="{{ dish.image.url }}" alt="Dish Image" onload="console.log('{{ dish.image.url }}')">
-         <h2>{{ dish.name }}</h2>
-         <p>{{ dish.description }}</p>
-         <p><b>Price: ₴{{ dish.price }}</b></p>
-        </div>
+   <div class="info">
+      <div style="display: flex; flex-direction: column; justify-content: space-between;">
+         <div style="margin-top: 0;" class="info-category">Адреса</div>
+         Київ, вул. Грінченка Бориса, 4А
+         <div class="info-category">Робочі години</div>
+         Пн-Пт12:00 — 22:00 <br>
+         Сб-Нд11:00 — 22:00
+         <div class="info-category">Бронювання</div>
+         +380 97 57 95 651 <br>
+         +380 97 57 95 651 <br>
+         +380 97 57 95 651
+         
       </div>
-      {% endfor %}
-      {% else %}
-      <h1>Меню наразі пусте</h1>
-      {% endif %}
+      <img  src="../../media/cafe_photo.png" alt="Фото 1">
+      
+      
    </div>
 </body>
 

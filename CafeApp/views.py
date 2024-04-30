@@ -1,7 +1,9 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404, redirect
 from .models import Dish
 from django.db.models import Q
 
+def info_view(request):
+    return render(request, "info.html")
 
 def index(request):
     Dish_list = Dish.objects.filter(category="dish").order_by("name")
@@ -18,6 +20,15 @@ def desserts_view(request):
     context = {
         "Dish_list": Dish_list,
         "category" : "ДЕСЕРТИ",
+    }
+    return render(request, "index.html", context)
+
+def drinks_view(request):
+    Dish_list = Dish.objects.filter(category="drink").order_by("name")
+
+    context = {
+        "Dish_list": Dish_list,
+        "category" : "НАПОЇ",
     }
     return render(request, "index.html", context)
 

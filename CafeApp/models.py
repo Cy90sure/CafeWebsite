@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 class Dish(models.Model):
    name = models.CharField(max_length=100, default="No Name")
@@ -6,5 +7,3 @@ class Dish(models.Model):
    category = models.CharField(max_length=100, default="Uncategorized")
    price = models.PositiveIntegerField(default=0)
    image = models.ImageField(upload_to='', default='default_dish.jpg')
-
-
