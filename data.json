@@ -1,0 +1,1958 @@
+[
+{
+    "model": "CafeApp.dish",
+    "pk": 1,
+    "fields": {
+        "name": "ЧІКЕН КАЦУ, ЗЕЛЕНИЙ КАРІ та БАСМАТІ",
+        "description": "Хрустке і ніжне куряче філе в особливій паніровці, що поєднується з пікантним зеленим карі та ароматним рисом басматі  Спробуй з келихом червоного Хермон з Ізраїлю або особливим сидром виготовленим методом природного холоду  ЗЕЛНИЙ ЧІКЕН КАЦУ, 450 г",
+        "category": "dish",
+        "price": 360,
+        "image": "chicken_katzu.jpg"
+    }
+},
+{
+    "model": "CafeApp.dish",
+    "pk": 2,
+    "fields": {
+        "name": "ХЛІБ з ШОКОЛАДНИМ МАСЛОМ",
+        "description": "Хліб з шоколадним маслом",
+        "category": "dessert",
+        "price": 90,
+        "image": "hlib_z_shokoladnum_maslom.jpg"
+    }
+},
+{
+    "model": "CafeApp.dish",
+    "pk": 3,
+    "fields": {
+        "name": "САЛАТ з ФЕТОЮ",
+        "description": "Зелений яскравий салат з бебі ромену, овочів, кіноа, фети та дресінгу з зеленого яблука та імбиру",
+        "category": "dish",
+        "price": 260,
+        "image": "salat_z_fetoyou.jpg"
+    }
+},
+{
+    "model": "CafeApp.dish",
+    "pk": 4,
+    "fields": {
+        "name": "ШОКОЛАДНИЙ КОБЛЕР",
+        "description": "Злегка недопечений ламаний шоколадний пиріг, з заварним кремом, шоколадним підсоленим ганашем та ванільним морозивом",
+        "category": "dessert",
+        "price": 250,
+        "image": "shokoladnuy_kobler.jpg"
+    }
+},
+{
+    "model": "CafeApp.dish",
+    "pk": 5,
+    "fields": {
+        "name": "СУП З ЗЕЛЕНОГО ГОРОШКУ",
+        "description": "Зелений горошок у овочевому бульоні з цибулею марс, стеблом селери та морквою, свіжою зеленню шпинату, петрушкки та чебрецю. Подаємо з в’яленими томатами, теплими грінками та шматочками копченої шинки або підсмаженими креветками, свіжою петрушкою. 320 г",
+        "category": "dish",
+        "price": 185,
+        "image": "soup_z_zelenogo_goroshku.jpg"
+    }
+},
+{
+    "model": "CafeApp.dish",
+    "pk": 6,
+    "fields": {
+        "name": "СПАРЖА з КАРТОПЛЕЮ та з СОУСОМ з БІЛОГО ВИНА",
+        "description": "Смажена на маслі нуазет сезонна спаржа та дрібна картопля, хамон, подаємо з соусом берблан та міксом зелені",
+        "category": "dish",
+        "price": 245,
+        "image": "sparzha_z_kartopleyou.jpg"
+    }
+},
+{
+    "model": "CafeApp.dish",
+    "pk": 7,
+    "fields": {
+        "name": "ТУНА СЕНДВІЧ",
+        "description": "Свіжий сендвіч з салатом з тунця, свіжим огірком та стеблом селери, з додаванням червоної цибулі, каперсів, шрірачі, йогурту та майо. До салату додаємо огірки теріякі та мікс свіжого молодого салату. Подаємо в грильованому тості.",
+        "category": "dish",
+        "price": 195,
+        "image": "tuna_sandwich.jpg"
+    }
+},
+{
+    "model": "CafeApp.dish",
+    "pk": 8,
+    "fields": {
+        "name": "ЗЕРНОВА КАША",
+        "description": "Каша з перловою та вівсяною крупами, кіноа та насінням амаранта в зеленому соусі. Подаємо з рідким яйцем або тофу. Приправляємо витриманим чедером.",
+        "category": "dish",
+        "price": 175,
+        "image": "zernova_kasha.jpg"
+    }
+},
+{
+    "model": "CafeApp.dish",
+    "pk": 14,
+    "fields": {
+        "name": "ПАНКЕЙКИ з ШОКОЛАДНИМ КРЕМОМ та ВИШНЕВИМ КОМПОТЕ",
+        "description": "483кк",
+        "category": "dessert",
+        "price": 210,
+        "image": "pancakes.png"
+    }
+},
+{
+    "model": "CafeApp.dish",
+    "pk": 15,
+    "fields": {
+        "name": "НІЖНІ СИРНИКИ з ПОЛУНИЧНИМ КОНФІ",
+        "description": "398кк",
+        "category": "dessert",
+        "price": 195,
+        "image": "surniky.png"
+    }
+},
+{
+    "model": "CafeApp.dish",
+    "pk": 16,
+    "fields": {
+        "name": "БАНАНОВИЙ ПУДИНГ",
+        "description": "226кк",
+        "category": "dessert",
+        "price": 115,
+        "image": "pudding.png"
+    }
+},
+{
+    "model": "CafeApp.dish",
+    "pk": 17,
+    "fields": {
+        "name": "МОРКВЯНИЙ ПИРІГ",
+        "description": "165кк",
+        "category": "dessert",
+        "price": 85,
+        "image": "carrot_pie.png"
+    }
+},
+{
+    "model": "CafeApp.dish",
+    "pk": 18,
+    "fields": {
+        "name": "FINAL DREAM",
+        "description": "\"Final Dream\" - це коктейль, створений для тих, хто мріє про кінцевий ідеал. Його історія починається в найкращих мріях, де небо завжди голубе, а кожен день - це пригодницький шлях до досягнення цілей.  Свіжий, кислий коктель з травяним після смаком полині.",
+        "category": "cocktail",
+        "price": 270,
+        "image": "final_dream.jpg"
+    }
+},
+{
+    "model": "CafeApp.dish",
+    "pk": 19,
+    "fields": {
+        "name": "RED STAR",
+        "description": "Яскравий кисло-солодкий коктель з літнім смаком кавуна, полуниці, доповнений нотами карамелі та ароматом гречаного чаю.",
+        "category": "cocktail",
+        "price": 270,
+        "image": "red_star.jpg"
+    }
+},
+{
+    "model": "CafeApp.dish",
+    "pk": 20,
+    "fields": {
+        "name": "METAVERSE",
+        "description": "\"Метавсесвіт\"- це віртуальна реальність, де користувачі можуть взаємодіяти, створювати та відчувати різноманітні віртуальні світи та досвіди. Свіжий яблучно-інжирний смак який продовжується легкою хересною сухістю та ароматом жасмину.",
+        "category": "cocktail",
+        "price": 270,
+        "image": "metaverse.jpg"
+    }
+},
+{
+    "model": "CafeApp.dish",
+    "pk": 21,
+    "fields": {
+        "name": "SUN KILLER",
+        "description": "\"Вбивче сонце\" - історія бере свій початок у світі, де людство змушене жити в підземних містах через загрозу сонячних вибухів. Цей напій став способом згадати сонце та його тепло. Тропічний солодкий коктель, з ананасовим смаком, нотами лемонграсу та легким травяним після смаком. Прикрашається кислою піною з алое та кокосу та нитками чилі.",
+        "category": "cocktail",
+        "price": 270,
+        "image": "sun_killer.jpg"
+    }
+},
+{
+    "model": "CafeApp.dish",
+    "pk": 22,
+    "fields": {
+        "name": "EVOLUTION",
+        "description": "\"[RE]волюція\" - саме така назва відображає, як трансформувався базовий коктейль, а також, саме цим хоче підкреслити як ускладнюється і трансформується наше суспільство. Кисло-солодкий коктейль на основі джину з легкою гірчинкою в стилі Gimlet, свіже поєднання огірка, дині та персика.",
+        "category": "cocktail",
+        "price": 270,
+        "image": "evolution.jpg"
+    }
+},
+{
+    "model": "CafeApp.dish",
+    "pk": 23,
+    "fields": {
+        "name": "MENTAL DATE",
+        "description": "П'янкий кисло-солодкий коктейль з незвичною комбінацією кордіалу пітахаї, оршату зі свіжих органічних конопляних зерен, конопляного рому та джину з кульбаби та кактусової содової.",
+        "category": "cocktail",
+        "price": 270,
+        "image": "mental_date.jpg"
+    }
+},
+{
+    "model": "CafeApp.dish",
+    "pk": 24,
+    "fields": {
+        "name": "ЛИМОНАД ІМБИРНИЙ",
+        "description": "Лимонад на основі натурального імбирного сиропа, трохи пікантний. Містить суміш пряних спецій.",
+        "category": "drink",
+        "price": 105,
+        "image": "lemonad_imburnuy.jpg"
+    }
+},
+{
+    "model": "CafeApp.dish",
+    "pk": 25,
+    "fields": {
+        "name": "ЛИМОНАД КІВІ-ЕСТРАГОН",
+        "description": "Насичено фруктовий з яскравим свіжим смаком. Готуємо зі свіжого ківі та натурального сиропу естрагону.",
+        "category": "drink",
+        "price": 105,
+        "image": "lemonad_kivi.jpg"
+    }
+},
+{
+    "model": "CafeApp.dish",
+    "pk": 26,
+    "fields": {
+        "name": "ЛИМОНАД ЛАВАНДОВИЙ",
+        "description": "Натуральний лимонад з яскравим смаком лаванди. Готуємо на основі справжньої лаванди, чаю анчан та лимонного фрешу. Чудово освіжає та балансує смаки.",
+        "category": "drink",
+        "price": 102,
+        "image": "lavanda.jpg"
+    }
+},
+{
+    "model": "CafeApp.dish",
+    "pk": 27,
+    "fields": {
+        "name": "ЛИМОНАД ГРЕЙПФРУТ-РОЗМАРИН",
+        "description": "Освіжаючий лимонад з грейпфруту. Гарно смакує до всіх страв з меню.",
+        "category": "drink",
+        "price": 500,
+        "image": "грейпфрут.jpg"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2024-04-24T18:27:24.711Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Dish object (1)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2024-04-24T18:29:10.269Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Dish object (2)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2024-04-24T18:30:07.695Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Dish object (3)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2024-04-24T18:31:03.274Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Dish object (4)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2024-04-24T18:32:06.156Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "Dish object (5)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2024-04-24T18:33:02.664Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "Dish object (6)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2024-04-24T18:33:52.772Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "Dish object (7)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2024-04-24T18:34:38.574Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "Dish object (8)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2024-04-24T18:34:40.855Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "Dish object (8)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2024-04-24T18:38:01.794Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "Dish object (9)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2024-04-24T18:38:11.575Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "Dish object (9)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2024-04-24T18:39:27.058Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "Dish object (10)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2024-04-24T18:40:13.521Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Dish object (11)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2024-04-24T18:40:51.587Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "Dish object (12)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2024-04-24T18:41:31.416Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "13",
+        "object_repr": "Dish object (13)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2024-04-27T14:57:09.043Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "13",
+        "object_repr": "Dish object (13)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2024-04-27T14:57:17.834Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "Dish object (12)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2024-04-27T14:57:26.112Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Dish object (11)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2024-04-27T14:57:31.702Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "Dish object (10)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2024-04-27T14:57:50.733Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "Dish object (5)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2024-04-27T14:58:05.322Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Dish object (2)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2024-04-27T15:02:40.390Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "13",
+        "object_repr": "Dish object (13)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2024-04-27T15:03:30.641Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "Dish object (12)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2024-04-27T15:03:59.420Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Dish object (11)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2024-04-27T15:04:04.962Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "Dish object (10)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2024-04-27T15:04:18.440Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "Dish object (8)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2024-04-27T15:04:26.862Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "Dish object (7)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2024-04-27T15:04:34.842Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "Dish object (6)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2024-04-27T15:04:42.320Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "Dish object (5)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2024-04-27T15:05:01.763Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Dish object (4)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2024-04-27T15:05:11.222Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Dish object (3)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2024-04-27T15:05:21.534Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Dish object (2)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2024-04-27T15:05:27.873Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Dish object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2024-04-27T15:07:46.902Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "13",
+        "object_repr": "Dish object (13)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2024-04-27T15:08:25.095Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "Dish object (12)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2024-04-27T15:08:39.893Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Dish object (11)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2024-04-27T15:08:49.096Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "Dish object (10)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2024-04-27T15:08:56.635Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "Dish object (8)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2024-04-27T15:09:03.266Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "Dish object (7)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2024-04-27T15:09:11.127Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "Dish object (6)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2024-04-27T15:09:19.565Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "Dish object (5)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2024-04-27T15:09:33.800Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Dish object (4)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2024-04-27T15:09:42.506Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Dish object (3)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2024-04-27T15:09:49.672Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Dish object (2)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2024-04-27T15:09:55.598Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Dish object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2024-04-27T15:14:18.195Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "13",
+        "object_repr": "Dish object (13)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2024-04-27T15:26:45.740Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "13",
+        "object_repr": "Dish object (13)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2024-04-27T15:27:07.333Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "Dish object (12)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2024-04-27T15:27:14.434Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Dish object (11)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2024-04-27T15:27:21.196Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "Dish object (10)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2024-04-27T15:27:37.776Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "Dish object (8)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2024-04-27T15:27:45.274Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "Dish object (7)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2024-04-27T15:27:51.834Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "Dish object (6)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2024-04-27T15:28:00.010Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "Dish object (5)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2024-04-27T15:28:12.803Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Dish object (4)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2024-04-27T15:28:22.378Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Dish object (3)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2024-04-27T15:28:28.651Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Dish object (2)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2024-04-27T15:28:34.803Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Dish object (1)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+        "action_time": "2024-04-28T14:47:07.672Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "14",
+        "object_repr": "Dish object (14)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+        "action_time": "2024-04-28T14:48:18.481Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "14",
+        "object_repr": "Dish object (14)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+        "action_time": "2024-04-28T14:50:39.126Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "15",
+        "object_repr": "Dish object (15)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+        "action_time": "2024-04-28T14:53:12.497Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "16",
+        "object_repr": "Dish object (16)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+        "action_time": "2024-04-28T14:55:55.624Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "17",
+        "object_repr": "Dish object (17)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+        "action_time": "2024-04-28T14:59:28.025Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "18",
+        "object_repr": "Dish object (18)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+        "action_time": "2024-04-28T14:59:46.225Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "Dish object (12)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+        "action_time": "2024-04-28T14:59:51.721Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "13",
+        "object_repr": "Dish object (13)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+        "action_time": "2024-04-28T14:59:56.781Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Dish object (11)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+        "action_time": "2024-04-28T15:00:08.539Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "Dish object (10)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+        "action_time": "2024-04-28T15:01:24.449Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "19",
+        "object_repr": "Dish object (19)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+        "action_time": "2024-04-28T15:04:36.694Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "20",
+        "object_repr": "Dish object (20)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+        "action_time": "2024-04-28T15:05:27.577Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "20",
+        "object_repr": "Dish object (20)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+        "action_time": "2024-04-28T15:05:27.637Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "20",
+        "object_repr": "Dish object (20)",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+        "action_time": "2024-04-28T15:05:39.052Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "19",
+        "object_repr": "Dish object (19)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+        "action_time": "2024-04-28T15:06:35.394Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "18",
+        "object_repr": "Dish object (18)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+        "action_time": "2024-04-28T15:06:58.097Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "17",
+        "object_repr": "Dish object (17)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+        "action_time": "2024-04-28T15:07:11.593Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "16",
+        "object_repr": "Dish object (16)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+        "action_time": "2024-04-28T15:07:34.406Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "15",
+        "object_repr": "Dish object (15)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+        "action_time": "2024-04-28T15:08:16.714Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "14",
+        "object_repr": "Dish object (14)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+        "action_time": "2024-04-28T15:11:36.292Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "21",
+        "object_repr": "Dish object (21)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+        "action_time": "2024-04-28T15:13:21.352Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "22",
+        "object_repr": "Dish object (22)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+        "action_time": "2024-04-28T15:15:10.901Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "23",
+        "object_repr": "Dish object (23)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+        "action_time": "2024-04-29T11:17:10.679Z",
+        "user": 2,
+        "content_type": 8,
+        "object_id": "4",
+        "object_repr": "UserOrder object (4)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 83,
+    "fields": {
+        "action_time": "2024-04-29T11:17:22.254Z",
+        "user": 2,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "UserOrder object (3)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 84,
+    "fields": {
+        "action_time": "2024-04-29T11:17:22.262Z",
+        "user": 2,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "UserOrder object (2)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 85,
+    "fields": {
+        "action_time": "2024-04-29T11:17:22.271Z",
+        "user": 2,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "UserOrder object (1)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 86,
+    "fields": {
+        "action_time": "2024-04-29T13:24:09.037Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Order object (1)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 87,
+    "fields": {
+        "action_time": "2024-04-29T13:32:30.412Z",
+        "user": 2,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Order object (2)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 88,
+    "fields": {
+        "action_time": "2024-04-29T21:08:07.760Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "24",
+        "object_repr": "Dish object (24)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 89,
+    "fields": {
+        "action_time": "2024-04-29T21:12:19.536Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "25",
+        "object_repr": "Dish object (25)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 90,
+    "fields": {
+        "action_time": "2024-04-29T21:14:23.646Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "26",
+        "object_repr": "Dish object (26)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 91,
+    "fields": {
+        "action_time": "2024-04-29T21:16:03.961Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "27",
+        "object_repr": "Dish object (27)",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 92,
+    "fields": {
+        "action_time": "2024-05-17T10:10:11.098Z",
+        "user": 2,
+        "content_type": 7,
+        "object_id": "27",
+        "object_repr": "Dish object (27)",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Price\"]}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add dish",
+        "content_type": 7,
+        "codename": "add_dish"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change dish",
+        "content_type": 7,
+        "codename": "change_dish"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete dish",
+        "content_type": 7,
+        "codename": "delete_dish"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view dish",
+        "content_type": 7,
+        "codename": "view_dish"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add user order",
+        "content_type": 8,
+        "codename": "add_userorder"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change user order",
+        "content_type": 8,
+        "codename": "change_userorder"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete user order",
+        "content_type": 8,
+        "codename": "delete_userorder"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view user order",
+        "content_type": 8,
+        "codename": "view_userorder"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add order item",
+        "content_type": 9,
+        "codename": "add_orderitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change order item",
+        "content_type": 9,
+        "codename": "change_orderitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete order item",
+        "content_type": 9,
+        "codename": "delete_orderitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view order item",
+        "content_type": 9,
+        "codename": "view_orderitem"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add order",
+        "content_type": 10,
+        "codename": "add_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change order",
+        "content_type": 10,
+        "codename": "change_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete order",
+        "content_type": 10,
+        "codename": "delete_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view order",
+        "content_type": 10,
+        "codename": "view_order"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add order detail",
+        "content_type": 11,
+        "codename": "add_orderdetail"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change order detail",
+        "content_type": 11,
+        "codename": "change_orderdetail"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete order detail",
+        "content_type": 11,
+        "codename": "delete_orderdetail"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view order detail",
+        "content_type": 11,
+        "codename": "view_orderdetail"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$390000$eCOJJtD5gpZmVqiCohIbCz$SMdkALpPneaH0Exl5K5oBQ1wB9cc63UY8tg90AgAlH0=",
+        "last_login": "2024-05-14T07:20:20.124Z",
+        "is_superuser": true,
+        "username": "maria",
+        "first_name": "",
+        "last_name": "",
+        "email": "maria.pozniak2013@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2024-04-23T16:27:19.048Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "CafeApp",
+        "model": "dish"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "CafeApp",
+        "model": "userorder"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "CafeApp",
+        "model": "orderitem"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "CafeApp",
+        "model": "order"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "CafeApp",
+        "model": "orderdetail"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "4mcwjm9f6sfhc7t3y87wroxsa3mzxtta",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgQMGle89AhplBqoYmpV0Z765NutDtf-_9l0iwrTVtnZc0kTgLI06_WwZ8cNsB3aHdZolzW5cpy12RB-3yOhM_L4f7d1Ch128drEUMNirtCwMWrWPRKhiDwxh9yGS0ByqEkY1lpwbKrP0IGJw3jE68P9-oOAg:1s0lQF:9Kwo6amfEzi6EcHMiNN4DsS8Ket1zlJJvw4fC2z4sVU",
+        "expire_date": "2024-05-11T17:01:11.017Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "79ov4fryqzlb73kcq0e1jjvsa61pfyu2",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2hCgQMGle89AhplBqoYmpV0Z765NutDtf-_9l0iwrTVtnZc0kTgLI06_WwZ8cNsB3aHdZolzW5cpy12RB-3yOhM_L4f7d1Ch128drEUMNirtCwMWrWPRKhiDwxh9yGS0ByqEkY1lpwbKrP0IGJw3jE68P9-oOAg:1s6mSS:c0CpqdWEfFRfIX6LAwjQU93-fJLVJtifsfREPaexedA",
+        "expire_date": "2024-05-28T07:20:20.133Z"
+    }
+}
+]
