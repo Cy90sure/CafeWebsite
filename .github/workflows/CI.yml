@@ -34,11 +34,10 @@ jobs:
         git commit -m "Add test report"
         git push
 
-
-    merge:
+  merge:
     needs: build
-    runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/develop'
+    runs-on: ubuntu-latest
 
     steps:
     - name: Checkout code
@@ -58,7 +57,6 @@ jobs:
             title: 'Auto-merge develop into main',
             body: 'This PR is automatically created and merged by GitHub Actions',
           });
-
           await github.pulls.merge({
             owner: context.repo.owner,
             repo: context.repo.repo,
@@ -66,7 +64,6 @@ jobs:
             merge_method: 'merge'
           });
 
-          
   deploy:
     needs: build
     runs-on: ubuntu-latest
