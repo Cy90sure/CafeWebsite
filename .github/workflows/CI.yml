@@ -57,7 +57,7 @@ jobs:
           });
 
   deploy:
-    needs: build
+    needs: merge
     runs-on: ubuntu-latest
 
     steps:
