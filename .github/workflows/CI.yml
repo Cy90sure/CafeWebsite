@@ -19,20 +19,12 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-        pip install pytest pytest-html
+        pip install pytest
 
     - name: Run tests
       env:
         SECRET_KEY: ${{ secrets.SECRET_KEY }}
-      run: pytest --html=pytest_report.html
-
-    - name: Commit and push reports
-      run: |
-        git config --global user.email "actions@github.com"
-        git config --global user.name "GitHub Actions"
-        git add pytest_report.html
-        git commit -m "Add test report"
-        git push
+      run: pytest
 
   merge:
     needs: build
